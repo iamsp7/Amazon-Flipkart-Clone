@@ -1,0 +1,862 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box; 
+}
+.navbar{
+    background-color: #131921;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    /* background-image: url("aam.png"); */
+    height: 50PX;
+    width:100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 1px 8px 0 6px;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+    cursor: pointer;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.logo img{
+    height: 30px;
+    width:100px ;
+    padding: 10px;
+    block-size: cover;
+    
+    
+}
+
+/* box2 */
+.logo-add{
+    
+    margin: 19px 2px 0px 10px ;
+    padding: 8px 9px 0 9px;
+    height: 60px;
+    width: 90px;
+    cursor:pointer ;
+}
+.logo-add:hover{
+    border:2px solid white;
+}
+.add-f{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left:15px;
+}
+.add-s{
+     /* font-size: 0.9rem;  */
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-right: 40px;
+    margin-left: 5px;
+    
+}
+.loc{
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#febd68;
+    width: 650px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.nav-search:hover{
+    border: 4px solid #febd68 ;
+}
+.input-search{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    
+
+}
+.search-sel{
+    width:50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    text-align: center;
+}
+
+.search-icon{
+    width: 40px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* box 4 */
+
+.hello{
+    font-size: 0.7rem;
+    color: #ffffff;
+    
+}
+.acc{
+    font-size: 0.9rem ;
+    font-weight: 700;
+}
+.sign-in:hover{
+    border: 2px solid white;
+   cursor:pointer;
+}
+
+/* box 5 */
+.ret{
+    font-size: 0.7rem;
+    color: #ffffff;
+    
+}
+.order{
+    font-size: 0.9rem ;
+    font-weight: 700;
+}
+.ret-or:hover{
+    border: 2px solid white;
+   cursor:pointer;
+}
+/* box 5 */
+.cart-l i{
+    font-size: 30px;
+  
+}
+.cart-l{
+    font-size: 0.9rem;
+    font-weight: 700;
+} 
+.cart-l:hover{
+    border: 2px solid white;
+   cursor:pointer;
+}
+/* panel  */
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    height: 39px;
+    background-color:#232F3E;
+    color: white;
+    align-items: center ;    
+
+}
+
+
+
+.panel-ops a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.88rem;  
+    margin-left: 20px; 
+}
+.panel-ops{
+    width: 70%;
+}
+.deals{
+    font-weight:700;
+}
+.deals:hover{
+
+    border:2px solid white;
+   cursor:pointer;
+}
+/* bgc img hero */
+.hero-sec{
+    background-image:url("indeximg/hero.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.hero-another-sec{
+    background-color: white;
+    color: #0F1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 96%;
+    margin-bottom:29px;
+}
+.hero-another-sec a{
+    color:#007185;
+    text-decoration: none;
+}
+
+/* Adding shoping items */
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+    /* border:2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border: none;
+    padding: 20px 0 15px;
+    margin-top: 12px;
+}
+.box1-img{
+    background-image: url("indeximg/cont.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+
+}
+.box1-content{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.box1-content p a   {
+    color:#007185 ;
+    font-size: 0.82rem;
+    text-decoration: none;
+}
+.box2-img{
+    height: 300px;
+    background-image: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box3-img{
+    background-image: url("indeximg/headset.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box4-img{
+    background-image: url("indeximg/spidy.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box5-img{
+    background-image: url("indeximg/chair.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box6-img{
+    background-image: url("indeximg/monitor.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box7-img{
+    background-image: url("indeximg/ps.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box8-img{
+    background-image: url("indeximg/spid.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+/* footer  */
+footer{
+    margin-top: 15px;
+    
+}
+.foot-pn1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-pn2 p{
+    color: white;
+    font-weight: 700;
+}
+.foot-pn2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.foot-pn2{
+    background-color:#222f3d;
+    height: 300px;
+    color: white;
+    display: flex;
+     justify-content:space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+.foot-pn3{
+    background-color:#222f3d ;
+    margin-top: 0.4px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo2 img{
+    height: 30px;
+    width:100px ;
+    padding: 10px;
+    block-size: cover;
+    
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+.foot-pn4{
+    height: 80px;
+    background-color:#0F1111;
+    font-size: 0.7rem;
+    text-align: center;
+    color:white;
+}
+.copyri{
+     padding-top: 5px;
+}
+.pages{
+   
+    padding-top: 25px;
+    
+}
+
+
+/*    sign in page  */
+.sign{
+    height: 820px;
+    width: 1520px,1600px;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(34, 47,61,0.9);
+    text-align: center;
+    
+}
+.logo5{
+    height: 50PX;
+    width:100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 1px 8px 0 6px;
+}
+.logo5 img{
+    height: 30px;
+    width:100px ;
+    padding: 10px;
+    block-size: cover;
+    margin-right:270px;
+    margin-top: 10px;
+   
+}
+
+.signn2{
+    background-color: #131921;
+    height: 70%;
+    width: 40%;
+    margin-top:130px ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    box-shadow:10px 10px 10px black;
+    text-align: center;
+    color:white;
+    border: 4px solid black;
+   
+    
+}
+.signn2 h2{
+    color: #febd68;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 110px;
+}
+form{
+display: flex;
+justify-content: center;
+position: absolute;
+} 
+.input-ser{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    display: inline;
+}
+.tet{
+    height: 40px;
+    width: 25vw;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 4px solid black;
+    box-shadow:4px solid white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons button{
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    color: whitesmoke;
+    border: 4px solid black;
+    border-radius: 40px;
+    width:100px;
+    background-color:rgba(34, 47,61,0.9) ;
+}
+.buttons button a{
+    text-decoration: none;
+    color: #febd68;
+}
+
+/* ======================================================================================================================
+===============================================================================================================================
+============================================================================== */
+@media (max-width:600px) {
+
+    .logo img{
+        height: 20px;
+        width:70px ;
+        padding: 10px;
+        block-size: cover;
+        
+        
+        
+    }
+    
+    .navbar{
+        background-color: #131921;
+        height: 80px;
+        width: 600px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    *{
+        margin:0;
+        font-family: Arial;
+        border:border-box; 
+    }
+
+    /* box 2 */
+    .logo-add{
+    
+        margin: 15px 1px 0px 7px ;
+        padding: 5px 6px 0 6px;
+        height: 60px;
+        width: 90px;
+
+    }   
+    .add-f{
+        color: #CCCCCC;
+        font-size: 0.67rem;
+        margin-left:15px;
+    }
+    .add-s{
+         font-size: 0.9rem; 
+        font-weight: bold;
+        color: #FFFFFF;
+        margin-right: 40px;
+        margin-left: 5px;
+        
+    }
+    .loc{
+        display: flex;
+        align-items: center;
+       
+        
+        
+    }
+    /* box 3 */
+    .nav-search{
+        display: flex;
+        justify-content: space-evenly;
+        background-color:#febd68;
+        width: 300px;
+        height: 30px;
+        border-radius: 4px;
+        display: none;
+        
+    }
+/* panel  */
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 600px;
+    background-color:#232F3E;
+    color: white;
+    align-items: center ;    
+
+}
+
+
+
+.panel-ops a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.77rem;  
+    margin-left: 20px; 
+}
+.panel-ops{
+    width: 70%;
+}
+.deals{
+    font-weight:700;
+    font-size: 0.7rem;
+}
+.deals:hover{
+
+    border:2px solid white;
+   cursor:pointer;
+}
+/* bgc img hero */
+.hero-sec{
+    background-image:url("indeximg/hero.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.hero-another-sec{
+    background-color: white;
+    color: #0F1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    width: 96%;
+    margin-bottom:29px;
+}
+.hero-another-sec a{
+    color:#007185;
+    text-decoration: none;
+}
+
+/* Adding shoping items */
+.shop-sec{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+    /* border:2px solid black; */
+    height:500px;
+    width: 270px;
+    background-color: white;
+    border: none;
+    padding: 20px 0 15px;
+    margin-top: 12px;
+}
+.box1-img{
+    background-image: url("indeximg/cont.webp");
+    height: 200px;
+    background-size: cover;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+
+}
+.box1-content{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+.box1-content p{
+    color:#007185 ;
+    font-size: 1rem;
+}
+.box2-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.box3-img{
+    background-image: url("indeximg/headset.webp");
+    height: 270px;
+    background-size: cover;
+    margin-top: 4rem;
+    margin-bottom:4rem;
+}
+.box4-img{
+    background-image: url("indeximg/spidy.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+.box5-img{
+    background-image: url("indeximg/chair.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.box6-img{
+    background-image: url("indeximg/monitor.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.box7-img{
+    background-image: url("indeximg/ps.webp");
+    height: 300px;
+    background-size: cover;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.box8-img{
+    background-image: url("indeximg/spid.webp");
+    height: 200px;
+    background-size: cover;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+/* footer  */
+footer{
+    width: 600px;
+    
+}
+.foot-pn1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-pn2 p{
+    color: white;
+    font-weight: 700;
+}
+.foot-pn2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.foot-pn2{
+    background-color:#222f3d;
+    height: 400px;
+    color: white;
+    display: flex;
+     justify-content:space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+.foot-pn3{
+    background-color:#222f3d ;
+    margin-top: 0.4px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo2 img{
+    height: 30px;
+    width:100px ;
+    padding: 10px;
+    block-size: cover;
+    
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+.foot-pn4{
+    height: 80px;
+    background-color:#0F1111;
+    font-size: 0.7rem;
+    text-align: center;
+    color:white;
+}
+.copyri{
+     padding-top: 5px;
+}
+.pages{
+   
+    padding-top: 25px;
+    
+}
+
+
+/* sign in page */
+
+.sign{
+    height: 800px;
+    width: 600px;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(34, 47,61,0.9);
+    text-align: center;
+    
+}
+.logo5{
+    height: 40PX;
+    width:80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 1px 8px 0 6px;
+}
+.logo5 img{
+    height: 30px;
+    width:80px ;
+    padding: 10px;
+    block-size: cover;
+    margin-right:180px;
+    margin-top: 27px;
+   
+}
+
+.signn2{
+    background-color: #131921;
+    height: 70%;
+    width: 80%;
+    margin-top:130px ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    box-shadow:10px 10px 10px black;
+    text-align: center;
+    color:white;
+    border: 4px solid black;
+   
+    
+}
+.signn2 h2{
+    color: #febd68;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 110px;
+}
+form{
+display: flex;
+justify-content: center;
+position: absolute;
+} 
+.input-ser{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    display: inline;
+}
+.tet{
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 4px solid black;
+    box-shadow:4px solid white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons button{
+    font-size: 0.85rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    color: whitesmoke;
+    border: 4px solid black;
+    border-radius: 40px;
+    width:100px;
+    background-color:rgba(34, 47,61,0.9) ;
+}
+.buttons button a{
+    text-decoration: none;
+    color: #febd68;
+}
+
+
+
+}
+
